@@ -4,8 +4,8 @@
  * main - print the string and put in the function
  *
  * Decription: Use the main function
- * Write a C program that prints exactly "Programming is like building a multilingual puzzle
- * Retun 0
+ * Prints exactly "Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {
