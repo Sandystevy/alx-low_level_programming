@@ -4,7 +4,7 @@
  * main - produce same output
  *
  * Description: Using the main function
- * prints the size of various types on the computer 
+ * prints the size of various types on the computer
  * Return: 0
  */
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
 
 	printf("Size of a char: %ld byte(s)\n", sizeof(c));
 	printf("Size of a int: %ld byte(s)\n", sizeof(i));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(li));
+	printf("Size of an long int: %ld byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %ld byte(s)\n", sizeof(lli));
 	printf("Size of a float: %ld byte(s)\n", sizeof(f));
 	return (0);
