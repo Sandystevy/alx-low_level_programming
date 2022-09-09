@@ -1,11 +1,11 @@
 #include <unistd.h>
 
 /**
- * main - a C program that prints exactly
+ * main - prints the starndard error sandwiched around satndard output
  *
  * Description: functions listed in the NAME
- * prints the size of various types on the computer
- * Returns: 1
+ * prints the size of various types
+ * Return: 1
  */
 int main(void)
 {
