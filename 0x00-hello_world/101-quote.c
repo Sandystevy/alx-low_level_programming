@@ -1,7 +1,6 @@
 #include <unistd.h>
 
 /**
- *
  * main - a C program that prints exactly
  *
  * Description: functions listed in the NAME
