@@ -4,7 +4,8 @@
  *
  * main - a C program that prints exactly
  *
- * Description: not allowed to use any functions listed in the NAME
+ * Description: functions listed in the NAME
+ * prints the size of various types on the computer
  * Returns: 1
  */
 int main(void)
