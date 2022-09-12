@@ -8,7 +8,7 @@
  * Description: To print alphabet
  * Return : 0
  */
-int main(void)
+char main(void)
 {
 	char c;
 
