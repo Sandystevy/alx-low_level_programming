@@ -39,10 +39,9 @@ int main(void)
 			}
 			e++;
 		}
-		g++;
+		h++;
 	}
-	h++;
+	putchar('\n');
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
