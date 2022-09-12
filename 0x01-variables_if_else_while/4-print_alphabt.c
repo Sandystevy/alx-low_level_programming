@@ -6,7 +6,7 @@
  * main - Positive anything is better than negative nothing 
  *
  * Description: To print alphabet
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
