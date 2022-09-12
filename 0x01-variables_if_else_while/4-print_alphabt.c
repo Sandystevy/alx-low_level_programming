@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e
+ * main - Positive anything is better than negative nothing 
  *
  * Description: To print alphabet
  * Return : 0
