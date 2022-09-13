@@ -3,16 +3,16 @@
 #include <time.h>
 
 /**
- * main - Prints numbers between 00 to 99
+ * main - Prints numbers between
  *
- * Description: To Prints numbers between 00 to 99
+ * Description: To Prints numbers between
  * Return: 0
  */
 int main(void)
 {
 	int num1, num2;
 
-	 for (num1 = 0; num1 <= 98; num1++)
+	 for (num1 = 0; num1 <= 98; num1++)
 	{
 		 for (num2 = num1 + 1; num2 <= 99; num2++)
 		{
