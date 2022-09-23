@@ -23,8 +23,8 @@ void print_number(int n)
 		n *= -1;
 		n++;
 	}
-	abs = n;
-	abSCount = n;
+		abs = n;
+		abSCount = n;
 
 	while (abSCount > 0)
 	{
