@@ -2,7 +2,6 @@
 
 /**
  * _strstr - finds the first occurrence of the substring needle
- * in the string haystack
  * @haystack: string to work on
  * @needle: substring to match
  *
@@ -10,7 +9,7 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i = 0 j = 0;
+	unsigned int i = 0, j = 0;
 
 	while (haystack[i])
 	{
