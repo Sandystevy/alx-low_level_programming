@@ -1,26 +1,34 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * power_operation - returns the natural square root of a number.
+ * @n: input number.
+ * @c: iterator.
+ * Return: square root or -1.
  */
-int main(void)
+int power_operation(int n, int c)
 {
-	int r;
-
-	r = _sqrt_recursion(1);
-	printf("%d\n", r);
-	r = _sqrt_recursion(1024);
-	printf("%d\n", r);
-	r = _sqrt_recursion(16);
-	printf("%d\n", r);
-	r = _sqrt_recursion(17);
-	printf("%d\n", r);
-	r = _sqrt_recursion(25);
-	printf("%d\n", r);
-	r = _sqrt_recursion(-1);
-	printf("%d\n", r);
-	return (0);
+	if (c % (n / c) == 0)
+	{
+		if (c * (n / c) == n)
+			return (c);
+		else
+			return (-1);
+	}
+	return (0 + power_operation(n, c + 1));
+}
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: input number.
+ * Return: natural square root.
+ */
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+		return (-1);
+	if (n == 0)
+		return (0);
+	if (n == 1)
+		return (1);
+	return (power_operation(n, 2));
 }
